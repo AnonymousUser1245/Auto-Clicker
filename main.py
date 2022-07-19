@@ -46,15 +46,3 @@ click_thread.start()
 
 with Listener(on_press=toggle_event) as listener:
     listener.join()
-
-# SPEEDS
-# 1 = 64cps
-# 2 = 128cps
-# 3 = 192cps
-# 4 = 258cps - maybe unstable
-# 5 = 327cps - maybe unstable
-# 6 = 390cps - unstable
-# 7 = 440cps - unstable
-# 8 = 536cps - very unstable
-# 9 = 560cps - very unstable
-# 10 = 606cps - 99% unstable (can crash computer)
